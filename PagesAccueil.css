@@ -1,0 +1,32 @@
+body
+{
+    background: url('Usinage1.jpg');
+    background-repeat:no-repeat;
+    background-position: right top ; 
+     background-color:#A6AFB4;
+
+}
+
+#col1{
+
+background-color:black; 
+background-position: left; 
+width:130px;
+height: 920px;
+
+}
+
+
+a {
+text-decoration: none; /* Les liens ne seront plus soulignés */
+color: #A6AFB4; /* Les liens seront en rouge au lieu de bleu */
+font-size:24px }
+
+a:hover {
+color: white;
+}
+
+a:active /* Quand le visiteur clique sur le lien */ {
+background-color: #FFCC66;
+}
+

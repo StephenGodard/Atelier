@@ -1,0 +1,44 @@
+body{
+	 background: url('usinage2.jpg');
+  background-color: #A6AFB4;
+}
+
+
+p{
+    color: black;
+}
+
+div.milieu {
+    position:absolute;
+    left: 40%;
+    top: 50%;
+    width: 200px;
+    height: 200px;
+    margin-left: -80px; /* Cette valeur doit être la moitié négative de la valeur du width */
+    margin-top: -100px; /* Cette valeur doit être la moitié négative de la valeur du height */
+}
+
+.bloc {
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 20px;
+    border-radius: 10px;
+    -moz-box-shadow: 0 0 20px #555; 
+    -webkit-box-shadow: 0 0 20px #555; 
+    box-shadow: 0 0 20px #555; 
+    width:350px;
+    background-color: #A6AFB4;
+}
+
+
+a {
+text-decoration: none; /* Les liens ne seront plus soulignés */
+color: black; /* Les liens seront en rouge au lieu de bleu */
+font-size:24px }
+
+a:hover {
+color: white;
+}
+
+a:active /* Quand le visiteur clique sur le lien */ {
+background-color: black;
+}

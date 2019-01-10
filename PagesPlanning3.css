@@ -1,0 +1,75 @@
+body{
+  background: url('usinage2.jpg');
+  background-color: #A6AFB4;
+}
+
+
+p{
+    color: red;
+}
+
+
+div.centre {
+    position:absolute;
+    left: 40%;
+    top: 20%;
+    width: 200px;
+    height: 200px;
+    margin-left: -80px; /* Cette valeur doit être la moitié négative de la valeur du width */
+    margin-top: -100px; /* Cette valeur doit être la moitié négative de la valeur du height */
+}
+
+.bloc {
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 20px;
+    -moz-box-shadow: 0 0 20px #555; 
+    -webkit-box-shadow: 0 0 20px #555; 
+    box-shadow: 0 0 20px #555; 
+    width:500px;
+    background-color: #A6AFB4;
+}
+
+div.center {
+    position:absolute;
+    left: 40%;
+    top: 70%;
+    width: 200px;
+    height: 200px;
+    margin-left: -80px; /* Cette valeur doit être la moitié négative de la valeur du width */
+    margin-top: -100px; /* Cette valeur doit être la moitié négative de la valeur du height */
+}
+
+.bloque {
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 20px;
+    -moz-box-shadow: 0 0 20px #555; 
+    -webkit-box-shadow: 0 0 20px #555; 
+    box-shadow: 0 0 20px #555; 
+    width:400px;
+    background-color: #A6AFB4;
+}
+
+#col1{
+
+background-color:black; 
+background-position: left; 
+width:130px;
+height: 920px;
+
+}
+
+
+a {
+text-decoration: none; /* Les liens ne seront plus soulignés */
+color: #A6AFB4; /* Les liens seront en rouge au lieu de bleu */
+font-size:20px }
+
+a:hover {
+color: white;
+}
+
+a:active /* Quand le visiteur clique sur le lien */ {
+background-color: #FFCC66;
+}
